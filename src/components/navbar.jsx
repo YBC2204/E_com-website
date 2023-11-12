@@ -9,7 +9,7 @@ const Navbar = () =>
     //let line=<hr className='border-2 border-red-500 mt-6'/>
 
     return(
-     <div className='flex justify-around p-16 shadow-md shadow-black font-Poppins'>
+     <div className='flex justify-around p-16 shadow-md shadow-black font-Poppins h-24'>
         <div className='flex items-center gap-3'>
           <img src={logo}/>
           <p className='font-semibold text-4xl'>SHOPPER</p>
