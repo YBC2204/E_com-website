@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
-import React, { useContext } from 'react'
-import all_product from './assets/all_product'
+import  { useContext } from 'react'
+
 import { ShopContext } from './Context/ShopContext'
 import remove from '../components/assets/cart_cross_icon.png'
 

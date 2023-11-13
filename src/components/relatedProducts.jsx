@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import all_product from '../components/assets/all_product'
 import Item from './Items/Item'
 

@@ -1,7 +1,7 @@
 
 import Hero from "../components/Hero"
 import NewCollections from "../components/NewCollections/NewCollections"
-import Offers from "../components/Offers/offers"
+import Offers from "../components/Offers/Offers"
 import { Popular } from "../components/Popular/Popular"
 
 const Shop = ()=>

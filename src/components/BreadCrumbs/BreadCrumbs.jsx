@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import arrow from '../assets/breadcrum_arrow.png'
 
 export const BreadCrumbs = (props) => {

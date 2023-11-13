@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import star from '../assets/star_icon.png'
 import star_dull from '../assets/star_dull_icon.png'
 import { useContext } from 'react';

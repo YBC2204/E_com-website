@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useContext } from "react"
 import { ShopContext } from "../components/Context/ShopContext"
 import drop from '../components/assets/dropdown_icon.png'

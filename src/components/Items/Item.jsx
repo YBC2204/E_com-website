@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom"
 
 
@@ -12,7 +13,7 @@ import { Link } from "react-router-dom"
     )
   }
   return (
-    <div className="hover:scale-105 hover:delay-100">
+    <div className="hover:scale-105 hover:delay-100 w-64">
       <Link to={`/product/${props.id}`}><img onClick={scrolltotop} src={props.image}/></Link> 
        <p className="m-2 ">{props.name}</p>
        <div className="flex gap-7 mx-2">
