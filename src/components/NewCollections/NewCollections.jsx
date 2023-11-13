@@ -1,4 +1,4 @@
-import Item from '../Items/item'
+import Item from '../Items/Item'
 import newc from '../assets/new_collections'
 
 const NewCollections = () => {

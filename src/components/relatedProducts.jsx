@@ -1,5 +1,5 @@
 import all_product from '../components/assets/all_product'
-import Item from './Items/item'
+import Item from './Items/Item'
 
 export const RelatedProducts = (props) => {
     const {product}=props

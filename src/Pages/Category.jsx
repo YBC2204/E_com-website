@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { ShopContext } from "../components/Context/ShopContext"
 import drop from '../components/assets/dropdown_icon.png'
-import Item from "../components/Items/item"
+import Item from "../components/Items/Item"
 
 
 const Category = (props)=>
