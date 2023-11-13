@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useContext } from "react"
 import { ShopContext } from "../components/Context/ShopContext"
 import { useParams } from "react-router-dom"
 import { BreadCrumbs } from "../components/BreadCrumbs/BreadCrumbs"
-import { Display } from "../components/ProductDisplay/display"
+import { Display } from "../components/ProductDisplay/Display"
 import { RelatedProducts } from "../components/relatedProducts"
 
 
