@@ -8,7 +8,7 @@ import iedc from "../assets/logo.png"
 const Footer = () =>
 {
     return(
-        <div className="flex flex-col w-full justify-center h-min bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white pt-12">
+        <div className="flex flex-col w-full justify-center h-min bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 text-white lg:pt-12">
         <a href='https://www.amazon.in/ref=nav_logo'><div className='flex justify-center items-center text-2xl my-4 font-semibold'><img src={iedc} className='h-10'/>SHOPPER</div></a>
             <div className="flex gap-4 justify-evenly mx-6 my-6">
               <a href='https://www.instagram.com/'> <InstagramIcon sx={{ fontSize: 40}} className='hover:text-pink-500'/></a> 

@@ -7,7 +7,7 @@ import { Popular } from "../components/Popular/Popular"
 const Shop = ()=>
 {
     return(
-        <div>
+        <div >
             <Hero/>
             <Popular/>
             <Offers/>
