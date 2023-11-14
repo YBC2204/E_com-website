@@ -13,7 +13,9 @@ import bannerkids from './components/assets/banner_kids.png'
 
 function App() {
   
-
+ window.onload=()=>{
+  window.scrollTo(0,0);
+ }
   return (
   
       <div>

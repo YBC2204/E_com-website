@@ -10,7 +10,7 @@ const NewCollections = () => {
     <div className=' flex flex-col items-center gap-3 my-10'>
         <h1 className='text-[#171717] text-3xl lg:text-5xl font-semibold'>NEW COLLECTIONS</h1>
         <hr className='w-64 h-1 rounded-lg bg-slate-400'/>
-        <div className='mt-12 flex gap-7 flex-wrap justify-center w-64 lg:w-3/4'>
+        <div className='mt-12 grid md:grid-cols-2  lg:grid-cols-3 gap-7  justify-center w-64 md:w-1/2 lg:w-3/4'>
            {newcollec}
         </div>
     </div>

@@ -11,16 +11,15 @@ const Category = (props)=>
    
     return(
         <div className="">
-        <img src={props.banner} className="block ml-48 py-4 w-4/5"/>
-        <div className="flex mx-44 justify-between items-center">
-            <p className="font-semibold">
-                <span>Showing 1-12</span>Out Of 36 Products
-            </p>
-           <div className="py-3 px-8 w-32 rounded-3xl border border-solid border-red-400">
-             Sort By <img src={drop}/>
+        <img src={props.banner} className="block lg:ml-48 py-4 lg:w-4/5"/>
+        <div className="flex lg:mx-44 justify-end items-center mr-4">
+            
+              
+           <div className="lg:py-3 lg:px-8 flex justify-center gap-2 items-center w-24 h-7 lg:h-12 lg:w-36 rounded-3xl border border-solid border-red-400 font-semibold hover:bg-red-400 cursor-pointer">
+             Sort By <img src={drop} className="h-2"/>
            </div> 
         </div>
-        <div className="grid grid-cols-4 mx-10 my-8 gap-y-7">
+        <div className="grid lg:grid-cols-4  grid-cols-2 md:grid-cols-3 lg:mx-10 my-8 gap-7 mx-6 ">
             {allprod.map((item)=>{
                
              if (props.category===item.category)
@@ -33,7 +32,7 @@ const Category = (props)=>
              }
             })}
         </div>
-        <div className="flex justify-center items-center  my-10 mx-auto w-56 h-16 rounded-3xl bg-[#ededed] text-[#787878] text-lg font-semibold border hover:bg-[#787878] hover:text-[#ededed]">
+        <div className="flex justify-center items-center  my-10 mx-auto w-40 h-12 lg:w-56 lg:h-16 rounded-3xl bg-[#ededed] text-[#787878] text-base lg:text-lg font-semibold border hover:bg-[#787878] hover:text-[#ededed]">
             Expolore More
         </div>
         </div>
