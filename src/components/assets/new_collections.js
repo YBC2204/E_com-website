@@ -6,8 +6,17 @@ import p5_img from "./product_15.png";
 import p6_img from "./product_2.png";
 import p7_img from "./product_17.png";
 import p8_img from "./product_28.png";
+import women1 from "./women1.jpg";
 
 let new_collections = [
+  {
+    id: 0,
+    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    category: "women",
+    image: women1,
+    new_price: 54.0,
+    old_price: 70.5,
+  },
   {
     id: 12,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",

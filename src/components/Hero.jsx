@@ -1,6 +1,6 @@
 import hand_icon from './assets/hand_icon.png'
 import arrow from './assets/arrow.png'
-import hero_image from './assets/hero_image.png'
+import hero_image from './assets/hero-r.png'
  const Hero = () => {
   return (
     <div className='h-[75vh] bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 flex font-Lato justify-around'>

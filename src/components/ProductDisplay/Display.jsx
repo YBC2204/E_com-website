@@ -23,7 +23,7 @@ export const Display = (props) => {
             <img src={product.image} className='main lg:h-full h-56 '/>
             </div>
         </div>
-        <div className='mt-2 mx-8 lg:mx-16 flex flex-col'>
+        <div className='mt-2 mx-8 lg:mx-16 flex flex-col font-Poppins'>
             <p className='font-bold text-xl text-[#3d3d3d]'>{product.name}</p>
             <div className='flex gap-1 items-center mt-3 text-[#1c1c1] text-lg'>
                 <img src={star}/>

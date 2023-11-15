@@ -18,7 +18,7 @@ export const BreadCrumbs = (props) => {
   <Link
     underline="hover"
     color="inherit"
-    href='/$`{product.category}`'
+    href={"/" + product.category}
   >
     {product.category}
   </Link>

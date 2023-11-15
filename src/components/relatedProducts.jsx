@@ -7,7 +7,7 @@ export const RelatedProducts = (props) => {
     
     let displayedCards=0
   return (
-    <div className='flex flex-col items-center gap-2 my-12 lg:mb-20 lg:mt-32'>
+    <div className='flex flex-col items-center gap-2 my-12 lg:mb-20 lg:mt-32 font-Lato'>
         <h1 className='text-[#171717] text-3xl lg:text-5xl font-semibold'>Related products</h1>
         <hr className='w-52 h-1 rounded-lg bg-[#252525]'/>
         <div className='mt-12 grid grid-cols-2 lg:flex lg:w-3/4  w-80 gap-7'>

@@ -3,23 +3,26 @@ import { useContext } from "react"
 import { ShopContext } from "../components/Context/ShopContext"
 import drop from '../components/assets/dropdown_icon.png'
 import Item from "../components/Items/Item"
-
+import { motion } from "framer-motion"
 
 const Category = (props)=>
 {
     const {allprod} = useContext(ShopContext);
    
     return(
-        <div className="">
-        <img src={props.banner} className="block lg:ml-48 py-4 lg:w-4/5"/>
-        <div className="flex lg:mx-44 justify-end items-center mr-4">
+        <motion.div initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1 }}>
+        
+        <img src={props.banner} className="block lg:mx-auto py-4 lg:w-4/5"/>
+        <div className="flex lg:mx-10 justify-end items-center mr-4">
             
               
            <div className="lg:py-3 lg:px-8 flex justify-center gap-2 items-center w-24 h-7 lg:h-12 lg:w-36 rounded-3xl border border-solid border-red-400 font-semibold hover:bg-red-400 cursor-pointer">
              Sort By <img src={drop} className="h-2"/>
            </div> 
         </div>
-        <div className="grid lg:grid-cols-4  grid-cols-2 md:grid-cols-3 lg:mx-10 my-8 gap-7 mx-6 ">
+        <div className="grid lg:grid-cols-4  grid-cols-2 md:grid-cols-3 lg:mx-auto my-8 gap-7 mx-6 lg:w-4/5 ">
             {allprod.map((item)=>{
                
              if (props.category===item.category)
@@ -35,7 +38,8 @@ const Category = (props)=>
         <div className="flex justify-center items-center  my-10 mx-auto w-40 h-12 lg:w-56 lg:h-16 rounded-3xl bg-[#ededed] text-[#787878] text-base lg:text-lg font-semibold border hover:bg-[#787878] hover:text-[#ededed]">
             Expolore More
         </div>
-        </div>
+        
+        </motion.div>
     )
 }
 
