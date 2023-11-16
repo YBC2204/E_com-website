@@ -31,7 +31,7 @@ const Navbar = () =>
      <div className='flex justify-around p-4 lg:gap-5 lg:py-8 shadow-md shadow-black font-Poppins h-26 '>
         <Link to='/'><div className='flex items-center gap-3'>
           <img src={logo} className='h-14'/>
-          <p className='font-semibold text-lg lg:text-4xl'>FASHION</p>
+          <p className='font-semibold text-lg lg:text-4xl'>FASHION FIESTA</p>
         </div></Link>
         <div className='hidden md:flex items-center gap-10 list-none font-medium text-xl cursor-pointer '>  
           
